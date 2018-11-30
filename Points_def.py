@@ -7,11 +7,6 @@ Définition d'une classe permettant de représenter des points,
 ainsi que d'une fonctions permettant d'effectuer des opérations de translation sur des instances de Point.
 """
 
-import copy
-import math
-import operator
-import os
-
 import matplotlib.pyplot as plt
 import numpy as np
 
