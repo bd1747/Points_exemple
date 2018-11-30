@@ -25,9 +25,9 @@ D = ptdef.Point(e2, name='D')
 
 carre = [A, B, C, D]
 carre_colors = [(66, 134, 244), #blue
-                (244, 65, 232), #pink
+                (71, 255, 172), #green
                 (255, 106, 38), #orange
-                (71, 255, 172) #green
+                (244, 65, 232) #pink
                 ]
 grey = (160, 160, 160)
 
