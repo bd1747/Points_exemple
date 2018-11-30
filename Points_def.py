@@ -26,10 +26,8 @@ class Point(object):
         dim = coord.shape[0]
         self.coord = coord
         self.dim = dim
-        if dim == 2:
-           self.coord = np.append(self.coord, [0.])
-        Point.all_pts_in_script.append(self)
         self.name = name
+        Point.all_pts_in_script.append(self)
 
     def __repr__(self):#? Je ne m'en sers pas ou vraiment rarement. On supprime ? 
         """Afficher les coordonnées du point."""
